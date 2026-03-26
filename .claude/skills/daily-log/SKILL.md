@@ -1,7 +1,7 @@
 ---
 name: daily-log
 description: トレーニング日報を対話形式で作成する
-disable-model-invocation: true
+disable-model-invocation: false
 allowed-tools: Read, Write, Glob, Grep, Bash(date), AskUserQuestion
 argument-hint: "[YYYY/MM/DD（省略時は今日）]"
 ---
