@@ -1,0 +1,64 @@
+{
+  "athlete": {
+    "current_vdot": 47,
+    "target_vdot": 59,
+    "max_hr": 185,
+    "resting_hr": 48,
+    "itb_recovery": true,
+    "notes": "左膝ITB症候群リカバリー中。急激な距離増/ペースアップを避ける。"
+  },
+  "weekly_schedule": {
+    "Q_days": ["Monday", "Thursday"],
+    "L_day": "Saturday",
+    "rest_days": ["Sunday"]
+  },
+  "hr_zones": {
+    "method": "pct_max_hr",
+    "zones": {
+      "Z1": [0.0, 0.68],
+      "Z2": [0.68, 0.78],
+      "Z3": [0.78, 0.87],
+      "Z4": [0.87, 0.94],
+      "Z5": [0.94, 1.0]
+    }
+  },
+  "cycles": [
+    {
+      "id": "cycle1",
+      "race": "昭和記念公園ハーフ",
+      "date": "2026-06-20",
+      "distance_km": 21.0975,
+      "target_time": "1:24-1:27",
+      "peak_weekly_km": 80,
+      "phase_start": "2026-03-01"
+    },
+    {
+      "id": "cycle2",
+      "race": "水戸黄門漫遊マラソン",
+      "date": "2026-10-25",
+      "distance_km": 42.195,
+      "target_time": "2:53-2:56",
+      "peak_weekly_km": 95,
+      "phase_start": "2026-07-01"
+    },
+    {
+      "id": "cycle3",
+      "race": "東京マラソン2027",
+      "date": "2027-03-07",
+      "distance_km": 42.195,
+      "target_time": "sub 2:50",
+      "peak_weekly_km": 110,
+      "phase_start": "2026-11-15"
+    }
+  ],
+  "itb_risk_thresholds": {
+    "max_weekly_km_increase_pct": 10,
+    "max_pace_jump_pct": 5,
+    "min_recovery_days_after_hard": 1
+  },
+  "analysis": {
+    "hr_drift_tolerance_pct": 5.0,
+    "pace_tolerance_pct": 3.0,
+    "e_pace_hr_ceiling_pct": 0.78
+  }
+}
