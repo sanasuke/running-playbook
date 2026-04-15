@@ -11,3 +11,9 @@ books/
 __pycache__/
 *.pyc
 .venv/
+
+# Garmin 生データキャッシュと認証トークン
+analysis/data/*
+!analysis/data/.gitkeep
+.garminconnect/
+garmin_tokens.json
